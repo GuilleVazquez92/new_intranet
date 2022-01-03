@@ -1,0 +1,120 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class CabeceraCuotero extends Model
+{
+    protected $table = 'public.fsd0122';
+    
+    protected $primaryKey = 'bfope1';
+    
+    public $timestamps=false;
+
+   
+    protected $fillable = [
+     
+    'bfempr', 
+    'bfsucu', 
+    'bfope1', 
+    'bfope2', 
+    'aacuen', 
+    'bfmone', 
+    'bfmod', 
+    'bftrn', 
+    'bfrubr', 
+    'bfgara', 
+    'bfoper', 
+    'bfultd', 
+    'bfrubo', 
+    'bfsoli', 
+    'bfente', 
+    'bfterc', 
+    'bfcapi', 
+    'bfcons', 
+    'bfefch', 
+    'bfplaz', 
+    'bfliqu', 
+    'bfobs', 
+    'bffchv', 
+    'bffchd', 
+    'bf1vto', 
+    'bftcuo', 
+    'bfcobd', 
+    'bfsusp', 
+    'bftint', 
+    'bfdeve', 
+    'bfadev', 
+    'bfcant', 
+    'bfdevm', 
+    'bfpend', 
+    'bfvcta', 
+    'bfcod', 
+    'bfvend', 
+    'bfcobr', 
+    'bfesta', 
+    'bfproc', 
+    'bftasa', 
+    'bfpres', 
+    'bfinte', 
+    'bfgtos', 
+    'bfley', 
+    'bfcomi', 
+    'bfsegu', 
+    'bfperi', 
+    'bfmed', 
+    'bfcan', 
+    'bfsup', 
+    'bfform', 
+    'bfcheq', 
+    'bfcta', 
+    'bfpaga', 
+    'bfvist', 
+    'bfcali', 
+    'bfslec', 
+    'bfcod1', 
+    'bfcod2', 
+    'bfcod3', 
+    'bfreg', 
+    'bfmax', 
+    'bfult', 
+    'bftefe', 
+    'bfsitu', 
+    'bfclas', 
+    'bftip', 
+    'bfpla', 
+    'bfrubc', 
+    'bffin', 
+    'bftipper', 
+    'bfopmig', 
+    'bfagen', 
+    'bfcat1', 
+    'bfcat2', 
+    'bfcat3', 
+    'bffcho', 
+    'bfbanc', 
+    'bfasoc', 
+    'bfcodi', 
+    'bfprevact', 
+    'bfprevant', 
+    'bfporl1', 
+    'bfporl2', 
+    'bfporl3', 
+    'bftitu', 
+    'bfporl4', 
+    'bfporl5', 
+    'bfbloc', 
+    'bffchc', 
+    'bfvendan', 
+    'bopecuen', 
+    'lote', 
+    'jjabog', 
+    'codlote', 
+    'bsituacion',
+    ];
+    
+
+    use HasFactory;
+}
